@@ -1,0 +1,267 @@
+/* estilos generales */
+
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1100px ;
+    margin:0 auto;
+    overflow: hidden;
+    padding:60px 0;
+}
+
+/* menu y hero */
+
+.contenedor_menu_navegacion a{
+    display: inline-block;
+    color:#ffffff;
+    text-decoration: none;
+    margin-left:10px;
+    margin-top:40px;
+    
+}
+
+
+.contenedor_menu_navegacion{
+   text-align: right;
+   padding:0;  
+   padding-right:30; 
+   
+}
+
+.encabezado{
+    width: 100%;
+    background-image:linear-gradient(-225deg, rgba(7,31,1,0.400) 8%, rgba(10,4,40,0.400) 56%,rgba(26,2,40,0.430) 100%), url("../img/analyst.jpg");
+    background-attachment: fixed ;
+    background-position: center ;
+    background-size: cover;
+    position: relative;
+}
+
+
+.hero{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#ffffff;
+    text-align: center;
+}
+
+.contenedor_texto{
+    padding-bottom:100px;
+}
+
+.hero h1{
+    font-size:60px;
+}
+
+.subtitulo{
+    font-size:25px;
+    padding:20px 0;
+    font-weight: 300;
+}
+
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+/* Main */
+
+.titulo_seccion{
+    text-align: center;
+    font-size:30px;
+    font-weight:700 ;
+    color: rgb(55,0,255);
+    padding-bottom: 60px;
+}
+
+.sobre_nosotros{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.relatos{
+    width: 30%;
+}
+
+.relato{
+    margin-bottom: 30px;
+    margin-right: 30px;
+    
+}
+
+.subtitulo_relato{
+    font-size: 25px;
+    color: rgb(55,0,255);
+    margin-bottom:5px;
+}
+
+.parrafo{
+    text-align: justify;
+}
+
+
+.ilustracion{
+    width: 500px;
+    margin-left:30px ;
+}
+
+.portafolio{
+    background-color:rgb(237,236,236) ;
+}
+
+.portafolio_contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.imagen_contenedor{
+    width: 38%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.imagen_contenedor img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:10px;
+}
+
+
+/* chart  */
+
+.tabla_de_precios{
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+
+.precios{
+    width: 30%;
+    height: 1000px;
+    text-align: center;
+    background-color:rgb(91,288,255) ;
+    border-radius:10px;
+    overflow: hidden;
+    padding: 50px 18px;
+    color: rgb(0,0,0);
+}
+
+.precios_activo{
+    width: 38%;
+    height: 1000px;
+    text-align: center;
+    background-color:rgb(1,158,225) ;
+    transform: scale(1.1);
+    border-radius:10px;
+    overflow: hidden;
+    padding: 50px 18px;
+    color: rgb(0,0,0);
+}
+
+
+.nombre_plan{
+    font-size:40px;
+}
+
+.precio{
+     font-size:22px;
+     margin-bottom: 40px;
+}
+
+.beneficio{
+    font:20px;
+    font-weight:300;
+    margin-bottom: 20px;
+    border-bottom: 1px dotted rgb(100,100,100);
+    paading-bottom: 5px;
+}
+
+
+.pago{
+    background-color: #ffffff;
+    color: black;
+    display: inline-block;
+    margin-top: 10px;
+    width: 100px;
+    padding: 18px 0;
+    text-decoration: none;
+    border-radius:10px;
+}
+
+/* footer */
+footer{
+    background-color:rgb(55,0,255) ;
+    position: relative;
+}
+
+footer .titulo_seccion{
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input{
+    border:1px solid #ffffff;
+    background-color:rgba(55,0,255,0.75%) ;
+    font-family:'Rajdhani', sans-serif;
+    font-size:15px;
+    font-weight:300 ;
+    outline: none;
+    color: #ffffff;
+    padding: 20px 18px;
+    margin-bottom: 26px;
+}
+
+input [type="text"], input [type="email"{
+    width: 48%;
+}
+
+textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 350px;
+    max-height:250px;
+}
+
+.inputsubmit{
+    margin:0;
+    padding: 15px 0;
+    width:125px ;
+    color:#ffffff ;
+    cursor:pointer;
+    background-color:rgb(36,24,82);
+}
+
+.inputsubmit: hover{
+    background-color:#ffffff;
+    color: black;
+}
